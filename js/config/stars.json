@@ -1,0 +1,27 @@
+[
+    {
+        "label": "1",
+        "key": 1,
+        "desc": "a single star"
+    },
+    {
+        "label": "2",
+        "key": 2,
+        "desc": "2 stars"
+    },
+    {
+        "label": "3",
+        "key": 3,
+        "desc": "3 stars"
+    },
+    {
+        "label": "Black Hole",
+        "key": 4,
+        "desc": "a black hole"
+    },
+    {
+        "label": "Neutron Star",
+        "key": 5,
+        "desc": "a neutron star"
+    }
+]

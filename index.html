@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Space Sector Generator</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main class="ui-windows">
+        <section class="ui-container" id="generation-container">
+            <div id="sector-name-box">
+                <h1 id="sector-name-fill">Space Sector Generator</h1>
+                <div class="flex-row-center" id="filters">
+                    <label for="order-systems">Order by:</label>
+                    <select name="order-systems" id="order-systems" disabled>
+                        <option>-</option>
+                        <option value="population">Population</option>
+                        <option value="planets">Planets</option>
+                        <option value="alphabetical">Alphabetical</option>
+                        <option value="moons">Moons</option>
+                        <option value="government">Government</option>
+                        <option value="system-wealth">Wealth</option>
+                        <option value="military">Military Strength</option>
+                    </select>
+                </div>
+            </div>
+            <div class="ui-window">
+                <div>
+                    <span class="window-frame"></span>
+                    <span class="window-frame"></span>
+                    <span class="window-frame"></span>
+                    <span class="window-frame"></span>
+                </div>
+                <div class="ui-window-contents">
+                    <div id="systems-list">
+                        <span class="blink">_</span>click 'Generate New Sector' to begin
+                    </div>
+                </div>
+            </div>
+            <div class="ui-controls" id="generation-controls">
+                <label for="input-num-of-systems"># of systems to generate:</label>
+                <input type="number" id="input-num-of-systems" name="input-num-of-systems" min="1" value="500">
+                <button id="generate-sector-btn">Generate New Sector</button>
+                <button id="expand-sector-btn" disabled>Expand Sector</button>
+                <button id="export-sector-btn" disabled>Export Sector</button>
+            </div>
+        </section>
+    </main>
+
+    <template id="system-template">
+        <details class="system ui-box">
+            <summary class="ui-box-head">
+                <h2 class="system-fill"></h2>
+                <div class="ui-icon-box">
+                    <p class="planets-num-fill"></p>
+                    <img class="ui-icon icon-planet" src="images/planet.svg" alt="planets">
+                    <div class="ui-icon-box-tooltip">
+                        <p class="planets-tooltip-fill"></p>
+                    </div>
+                </div>
+                <div class="ui-icon-box">
+                    <p class="moons-total-fill"></p>
+                    <img class="ui-icon icon-moon" src="images/moon.svg" alt="planets">
+                    <div class="ui-icon-box-tooltip">
+                        <p class="moons-total-tooltip-fill"></p>
+                    </div>
+                </div>
+                <div class="ui-icon-box">
+                    <p class="stars-fill"></p>
+                    <img class="ui-icon icon-star" src="images/star.svg" alt="stars">
+                    <div class="ui-icon-box-tooltip">
+                        <p class="stars-tooltip-fill"></p>
+                    </div>
+                </div>
+                <div class="ui-icon-box">
+                    <p class="total-population-fill"></p>
+                    <img class="ui-icon icon-population" src="images/population.svg" alt="population">
+                    <div class="ui-icon-box-tooltip">
+                        <p class="total-pop-tooltip-fill"></p>
+                    </div>
+                </div>
+                <div class="ui-icon-box">
+                    <p class="government-fill"></p>
+                    <img class="ui-icon icon-star" src="images/government.svg" alt="government">
+                    <div class="ui-icon-box-tooltip">
+                        <p class="government-tooltip-fill"></p>
+                    </div>
+                </div>
+                <div class="ui-icon-box">
+                    <p class="system-wealth-fill"></p>
+                    <img class="ui-icon icon-money" src="images/money.svg" alt="wealth">
+                    <div class="ui-icon-box-tooltip">
+                        <p class="system-wealth-tooltip-fill"></p>
+                    </div>
+                </div>
+                <div class="ui-icon-box">
+                    <p class="military-fill"></p>
+                    <img class="ui-icon icon-military" src="images/sword.svg" alt="Military">
+                    <div class="ui-icon-box-tooltip">
+                        <p class="military-tooltip-fill"></p>
+                    </div>
+                </div>
+            </summary>
+            <div class="ui-box-body">
+                <p class="bio-fill">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <select class="planets-fill">
+                </select>
+                <div class="planets-list">
+                    
+                </div>
+            </div>
+        </details>
+    </template>
+
+    <template id="planet-template">
+        <div class="planet-reveal planet-fill" data-reveal="" data-revealed="">
+            <span class="window-frame"></span>
+            <span class="window-frame"></span>
+            <span class="window-frame"></span>
+            <span class="window-frame"></span>
+            <div class="reveal-head flex-row-center">
+                <h3 class="name-fill"></h3>
+                <div class="ui-icon-box">
+                    <p class="type-fill"></p>
+                    <div class="ui-icon-box-tooltip">
+                        <p class="type-tooltip-fill"></p>
+                    </div>
+                </div>
+                <div class="ui-icon-box">
+                    <p class="population-fill"></p>
+                    <img class="ui-icon icon-population" src="images/population.svg" alt="population">
+                    <div class="ui-icon-box-tooltip population-tooltip-fill"></div>
+                </div>
+                <div class="ui-icon-box">
+                    <p class="moons-fill"></p>
+                    <img class="ui-icon icon-moon" src="images/moon.svg" alt="moons">
+                    <div class="ui-icon-box-tooltip moons-tooltip-fill"></div>
+                </div>
+                <div class="ui-icon-box">
+                    <p class="wealth-fill"></p>
+                    <img class="ui-icon icon-money" src="images/money.svg" alt="wealth">
+                    <div class="ui-icon-box-tooltip wealth-tooltip-fill"></div>
+                </div>
+            </div>
+            <div class="fill-rows moon-details-fill flex-row-center"></div>
+            <div class="fill-rows resources-fill flex-row-center"></div>
+            <div class="fill-rows industries-fill flex-row-center"></div>
+        </div>
+    </template>
+
+    <template id="icon-box-template">
+        <div class="ui-icon-box">
+            <p class="icon-box-fill"></p>
+            <div class="ui-icon-box-tooltip">
+                <p class="icon-box-tooltip-fill"></p>
+            </div>
+        </div>
+    </template>
+    
+    <script src="js/generateSystem.js" type="module"></script>
+</body>
+</html>

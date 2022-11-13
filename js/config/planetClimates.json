@@ -1,0 +1,290 @@
+[
+    {
+        "label": "cthonian",
+        "habitabilityModifier": 0,
+        "desc": "These planets orbit close to their parent star which has stripped away its atmosphere leaving only its metallic core. Life on the planet itself is impossible.",
+        "key": 1,
+        "resources": {
+            "always": [
+                1
+            ],
+            "possible": [
+                2,
+                3,
+                4,
+                7,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ]
+        }
+    },
+    {
+        "label": "carbon",
+        "habitabilityModifier": 0.2,
+        "desc": "These planets are richer in carbon than oxygen, resulting in a thick surface of graphite and sometimes diamond.",
+        "key": 2,
+        "resources": {
+            "always": [
+                26
+            ],
+            "possible": [
+                1,
+                4,
+                5,
+                7,
+                11,
+                24,
+                18,
+                19,
+                20,
+                24,
+                25,
+                28
+            ]
+        }
+    },
+    {
+        "label": "desert",
+        "habitabilityModifier": 0.7,
+        "desc": "These planets are one giant desert. Surface water is little to none and sand storms are often common. Suprisingly it is common that they can support life.",
+        "key": 3,
+        "resources": {
+            "always": [
+                11
+            ],
+            "possible": [
+                1,
+                2,
+                4,
+                8,
+                10,
+                12,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                27
+            ]
+        }
+    },
+    {
+        "label": "gas",
+        "habitabilityModifier": 0.4,
+        "desc": "These planets are comprised primarily of gas, usually hydrogen and helium. Deep below the gas resides a metal core. Occasionally these planets can support flying settlements in their atmosphere.",
+        "key": 4,
+        "resources": {
+            "always": [
+                4
+            ],
+            "possible": [
+                3,
+                5,
+                6,
+                8,
+                12,
+                13,
+                24,
+                29
+            ]
+        }
+    },
+    {
+        "label": "ocean",
+        "habitabilityModifier": 0.7,
+        "desc": "These planets are predominantly ocean. Little to no landmasses but often suitable for life.",
+        "key": 5,
+        "resources": {
+            "always": [
+                6
+            ],
+            "possible": [
+                1,
+                4,
+                8,
+                10,
+                11,
+                12,
+                13,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                27,
+                29
+            ]
+        }
+    },
+    {
+        "label": "ice",
+        "habitabilityModifier": 0.3,
+        "desc": "These planets have a totally frozen surface. Liquid lakes and seas are often present below the surface.",
+        "key": 6,
+        "resources": {
+            "always": [
+                6
+            ],
+            "possible": [
+                1,
+                3,
+                4,
+                5,
+                11,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                24,
+                29
+            ]
+        }
+    },
+    {
+        "label": "molten",
+        "habitabilityModifier": 0,
+        "desc": "These planets are a scorching ball of molten metal and rock that is completely inhospitable to life.",
+        "key": 7,
+        "resources": {
+            "always": [
+                1
+            ],
+            "possible": [
+                2,
+                3,
+                4,
+                7,
+                11,
+                14,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                24,
+                25,
+                26,
+                28
+            ]
+        }
+    },
+    {
+        "label": "terrestrial",
+        "habitabilityModifier": 1,
+        "desc": "These planets are analogs to the earth we know and love.",
+        "key": 8,
+        "resources": {
+            "always": [
+                6
+            ],
+            "possible": [
+                1,
+                4,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                23,
+                27,
+                28
+            ]
+        }
+    },
+    {
+        "label": "protoplanet",
+        "habitabilityModifier": 0.1,
+        "desc": "These planets are still in the process of forming. The remaining presence of radioactive elements often makes them dangerous to inhabit",
+        "key": 9,
+        "resources": {
+            "always": [
+                7
+            ],
+            "possible": [
+                1,
+                2,
+                3,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22
+            ]
+        }
+    },
+    {
+        "label": "disrupted",
+        "habitabilityModifier": 0.3,
+        "desc": "These planets have been disrupted or paritally destroyed by the impact or passing of other astronomical bodies. While some remain habitable most suffer regular meteor falls resulting from the ring of dust surrounding them.",
+        "key": 10,
+        "resources": {
+            "always": [
+                1
+            ],
+            "possible": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                11,
+                12,
+                14,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                28
+            ]
+        }
+    },
+    {
+        "label": "metal",
+        "habitabilityModifier": 0.2,
+        "desc": "These planets consist of a metallic core with little to no mantle. While liquid often exists on their surface it is usually comprised of metallic compounds.",
+        "key": 11,
+        "resources": {
+            "always": [
+                1
+            ],
+            "possible": [
+                2,
+                3,
+                4,
+                7,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                26
+            ]
+        }
+    }
+]

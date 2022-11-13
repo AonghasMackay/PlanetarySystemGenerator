@@ -1,0 +1,8 @@
+//modular class styles
+.flex-row {
+  @include flex-row;
+}
+  
+.flex-row-center {
+  @include flex-row-center;
+}

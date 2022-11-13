@@ -1,0 +1,148 @@
+[
+    {
+        "label": "Mining",
+        "desc": "The planet and its orbiting bodies are hollowed out by men in search of valuable materials.",
+        "key": 1,
+        "numRequired": 4,
+        "requiredResources": [
+            1,
+            2,
+            7,
+            11,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            25,
+            28
+        ]
+    },
+    {
+        "label": "Shipbuilding",
+        "desc": "Giant shipyards float just above the atmosphere constructing all manner of spacebearing vessels",
+        "key": 2,
+        "numRequired": 4,
+        "requiredResources": [
+            1,
+            2,
+            3,
+            5,
+            19
+        ]
+    },
+    {
+        "label": "Computing",
+        "desc": "Vast factories print line upon line of semiconductors, microchips and fibre cabling. Man-made caves of server banks calculate incomprehensible algorithims.",
+        "key": 3,
+        "numRequired": 4,
+        "requiredResources": [
+            1,
+            2,
+            3,
+            5,
+            19
+        ]
+    },
+    {
+        "label": "Foodstuffs",
+        "desc": "From dank fungus farms to free range ranches; this planet creates a cornicopia of food.",
+        "key": 4,
+        "numRequired": 4,
+        "requiredResources": [
+            6,
+            8,
+            9,
+            12,
+            13,
+            14,
+            15,
+            16
+        ]
+    },
+    {
+        "label": "Common Goods",
+        "desc": "From cutlery to childrens toys, massive industrial lines produce commercial goods en masse.",
+        "key": 5,
+        "numRequired": 3,
+        "requiredResources": [
+            1,
+            4,
+            6,
+            11,
+            20,
+            26
+        ]
+    },
+    {
+        "label": "Luxury Goods",
+        "desc": "A network of workshops compete to outdo one another with the latest fashions, jewelries and consumer gadgets.",
+        "key": 6,
+        "numRequired": 3,
+        "requiredResources": [
+            28,
+            27,
+            25,
+            22,
+            20,
+            11
+        ]
+    },
+    {
+        "label": "Nuclear Processing",
+        "desc": "Under the watchful gaze of engineers nuclear reactors are built, fuel enriched and weapons constructed.",
+        "key": 7,
+        "numRequired": 3,
+        "requiredResources": [
+            29,
+            26,
+            7,
+            18,
+            19
+        ]
+    },
+    {
+        "label": "Research and Development",
+        "desc": "Cutting edge technology is designed, built and tested here.",
+        "key": 8,
+        "numRequired": 3,
+        "requiredResources": [
+            3,
+            5,
+            11,
+            21,
+            24,
+            25
+        ]
+    },
+    {
+        "label": "Medical Science",
+        "desc": "The regrowth of a lost limb is a trifle on this planet. The latest drugs, medical robots and procedures are studied and distributed here.",
+        "key": 9,
+        "numRequired": 3,
+        "requiredResources": [
+            3,
+            5,
+            11,
+            21,
+            24,
+            25
+        ]
+    },
+    {
+        "label": "Antimatter Production",
+        "desc": "Antimatter engines require great expertise and rare materials to construct. This planet has the immense infrastructure needed to sustain such an industry.",
+        "key": 10,
+        "numRequired": 5,
+        "requiredResources": [
+            2,
+            3,
+            5,
+            18,
+            19,
+            20,
+            21
+        ]
+    }
+]

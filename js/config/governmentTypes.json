@@ -1,0 +1,351 @@
+[
+    {
+        "label": "Authoritarian Democracy",
+        "key": 1,
+        "desc": "A democratic government with authoritarian leanings. Dominated by a ruling elite. Freedom of speech and the press are increasingly under threat. Often quasi facist.",
+        "suffixes": [
+            "Republic",
+            "Combine",
+            "Commonwealth",
+            "State",
+            "Union",
+            "Accord",
+            "Amalgamation",
+            "Concord",
+            "Dominion",
+            "Council"
+        ]
+    },
+    {
+        "label": "Facist",
+        "key" : 2,
+        "desc": "Authoritarian ultranationalists with a single dictator. Often imperailist in nature.",
+        "suffixes": [
+            "Regime",
+            "Combine",
+            "Empire",
+            "State",
+            "Union",
+            "Kingdom",
+            "Duchy",
+            "Party",
+            "Dominion",
+            "Territories",
+            "Lords",
+            "Legion",
+            "Rexists",
+            "Order"
+        ]
+    },
+    {
+        "label": "Military Junta",
+        "key": 3,
+        "desc": "A government formed from the upper ranks of the military. Military service is the main path to social advancement. While some vestige of civilian government may remain it is completely subordinate to the military.",
+        "suffixes": [
+            "Regime",
+            "Combine",
+            "Territories",
+            "Legion",
+            "Army",
+            "Council",
+            "Junta",
+            "Order",
+            "Clique"
+        ]
+    },
+    {
+        "label": "Absolute Monarchy",
+        "key": 4,
+        "desc": "A government ruled by a single monarch who holds absolute power. Power descends through the ruling family.",
+        "suffixes": [
+            "Empire",
+            "Duchy",
+            "Kingdom",
+            "Duchies",
+            "Princedom",
+            "Principality",
+            "Governorate",
+            "Raj",
+            "Monarchy",
+            "Dynasty",
+            "Reign",
+            "Clan"
+            ]
+    },
+    {
+        "label": "Corporate Oligarchy",
+        "key": 5,
+        "desc": "A government controlled by corporate interests through lobbying and corruption.",
+        "suffixes": [
+            "Corporation",
+            "Enterprise",
+            "Syndicate",
+            "Company",
+            "Ring",
+            "Cartel",
+            "Combine",
+            "Board",
+            "Firm",
+            "Outfit",
+            "Committee",
+            "Conglomerate",
+            "Group",
+            "Kongsi"
+        ]
+    },
+    {
+        "label": "Marxism–Leninism",
+        "key": 6,
+        "desc": "A single party state with a government controlled economy, strong social welfare, supression of religion, supression of dissent and some form of internal party democracy.",
+        "suffixes": [
+            "Soviets",
+            "Soviet",
+            "Republic",
+            "State",
+            "Co-Operatives",
+            "Jamahiriya",
+            "Commune",
+            "Communes",
+            "Zone",
+            "Administration",
+            "Movement",
+            "Party",
+            "Front"
+        ]
+    },
+    {
+        "label": "Trotskyist",
+        "key": 7,
+        "desc": "A single party state with a government controlled economy, strong social welfare, supression of dissent and some form of mass democracy through workers councils.",
+        "suffixes": [
+            "Soviets",
+            "Soviet",
+            "Republic",
+            "State",
+            "Co-Operatives",
+            "Jamahiriya",
+            "Commune",
+            "Communes",
+            "Zone",
+            "Administration",
+            "Movement",
+            "Party",
+            "Front"
+        ]
+    },
+    {
+        "label": "Anarcho-Communism",
+        "key": 8,
+        "desc": "A network of allied communes that co-operate for international trade and defence against large powers. Private property is to a large extent abolished. The means of production are controlled by its workers.",
+        "suffixes": [
+            "Soviets",
+            "Soviet",
+            "Co-Operatives",
+            "Commune",
+            "Communes",
+            "Zone",
+            "Movement",
+            "Front"
+        ]
+    },
+    {
+        "label": "Constitutional Monarchy",
+        "key": 9,
+        "desc": "A government with a constitution and some form of civilian government that retains a monarchy. The monarchy has limited direct power but may still be very influential is society.",
+        "suffixes": [
+            "Empire",
+            "Duchy",
+            "Kingdom",
+            "Duchies",
+            "Princedom",
+            "Principality",
+            "Republic",
+            "States",
+            "Confederation",
+            "Federation"
+            ]
+    },
+    {
+        "label": "Diarchy",
+        "key": 10,
+        "desc": "A government led by two co-rulers. Often used to represent two distinct peoples of a polity or to provide comprimise between internal factions.",
+        "suffixes": [
+            "Empire",
+            "Duchy",
+            "Kingdom",
+            "Duchies",
+            "Diarchy"
+            ]
+    },
+    {
+        "label": "Tetrarchy",
+        "key": 11,
+        "desc": "A monarchy led by two senior rulers, with absolute power, and two junior rulers. Allows for the peaceful selection of successors or the induction of powerful individuals who may otherwise be a threat. Internal division can be a significant threat.",
+        "suffixes": [
+            "Empire",
+            "Duchy",
+            "Kingdom",
+            "Duchies",
+            "Tetarchy"
+            ]
+    },
+    {
+        "label": "Federal Monarchy",
+        "key": 12,
+        "desc": "A federation of states, each ruled by their own individual monarch. Usually headed by a single monarch of greater rank but can also be some form of shared power.",
+        "suffixes": [
+            "Kingdoms",
+            "Duchies",
+            "Princes",
+            "Federation",
+            "Princedoms",
+            "Kings"
+            ]
+    },
+    {
+        "label": "Theocracy",
+        "key": 13,
+        "desc": "A deity or pantheon of deities are recognised as the ruling authority. Day to day governing is carried about by the authorities of the states religion.",
+        "suffixes": [
+            "State",
+            "See",
+            "Canon",
+            "Kingdom",
+            "Church",
+            "Community",
+            "Mission",
+            "Priesthood"
+            ]
+    },
+    {
+        "label": "Demarchy",
+        "key": 14,
+        "desc": "A state ruled by public officials who are selected via a random lottery. Term limits are usually short and relative to a paticular task that needs completing.",
+        "suffixes": [
+            "Lottery",
+            "Raffle",
+            "Draw",
+            "Lottocracy",
+            "Allotmennt",
+            "Stochocracy"
+            ]
+    },
+    {
+        "label": "Direct Democracy",
+        "key": 15,
+        "desc": "A democratic government in which laws are proposed by publicly elected officials and all decisions are made via a direct refurendum.",
+        "suffixes": [
+            "Republic",
+            "Commonwealth",
+            "State",
+            "Union",
+            "Electorate",
+            "Initative"
+        ]
+    },
+    {
+        "label": "Representative Democracy",
+        "key": 16,
+        "desc": "A democratic government in which elected representatives propose and vote on laws. Usually divided between a large number of political parties.",
+        "suffixes": [
+            "Republic",
+            "Representatives",
+            "Commonwealth",
+            "State",
+            "Union",
+            "Electorate"
+        ]
+    },
+    {
+        "label": "Algocracy",
+        "key": 17,
+        "desc": "A state governed by complex artificial intelligence. Strong state control of the economy and education. Can vary from totalitarian to free.",
+        "suffixes": [
+            "Algorithm",
+            "Order",
+            "Algocracy",
+            "Brain",
+            "Design",
+            "Machine",
+            "Theorem"        
+        ]
+    },
+    {
+        "label": "Anocracy",
+        "key": 18,
+        "desc": "A semi democratic state in which dictatorial powers of the government are codified by law and violent populist changes in government are not uncommon.",
+        "suffixes": [
+            "Republic",
+            "Combine",
+            "Commonwealth",
+            "State",
+            "Union",
+            "Accord",
+            "Amalgamation",
+            "Concord",
+            "Dominion",
+            "Council"
+        ]
+    },
+    {
+        "label": "Technological Oligarchy",
+        "key": 19,
+        "desc": "A government that is controlled by individuals who own and control important technologies such as AI's, military robots or life extending technology.",
+        "suffixes": [
+            "Republic",
+            "Combine",
+            "Commonwealth",
+            "State",
+            "Union",
+            "Amalgamation",
+            "Concord",
+            "Council",
+            "Group"
+        ]
+    },
+    {
+        "label": "Governing Bank",
+        "key": 20,
+        "desc": "A state ruled by its central bank. Civilian government and a judiciary exist but are subordinate to the financial authorities.",
+        "suffixes": [
+            "Bank",
+            "Trust",
+            "Vault",
+            "Reserve",
+            "Treasury",
+            "Fund",
+            "Hoard"
+        ]
+    },
+    {
+        "label": "Elective Monarchy",
+        "key": 21,
+        "desc": "A state ruled for life by an elected monarch. Electors are usually powerful members of the nobility.",
+        "suffixes": [
+            "Empire",
+            "Duchy",
+            "Kingdom",
+            "Duchies",
+            "Princedom",
+            "Principality",
+            "Republic",
+            "States",
+            "Confederation",
+            "Federation"
+            ]
+    },
+    {
+        "label": "Single Brain",
+        "key": 22,
+        "desc": "The people of the state have been neurologically connected, either willingly or through force. Now they move with one mind and one will.",
+        "suffixes": [
+            "Brain",
+            "Collective",
+            "Assembly",
+            "Unity",
+            "Mass",
+            "Horde",
+            "Majority"
+            ]
+    }
+]

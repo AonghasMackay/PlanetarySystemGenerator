@@ -1,0 +1,35 @@
+@mixin input {
+    font-family: $font;
+    color: $core-colour; 
+    background: $btn-background;
+    outline: 0;
+    border: $border-light-btn;
+}
+
+@mixin ui-box {
+    @include flex-row;
+    align-items: center;
+    margin-right: 15px;
+    border: 1px solid $ui-pale;
+    padding: 5px 8px;
+    border-radius: $input-border-radius;
+    background: $ui-box-background;
+    position: relative;
+    transition: background-color 0.4s ease;
+}
+
+@mixin ui-box-hover {
+    background-color: $ui-pale;
+    transition: background-color 0.4s ease;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

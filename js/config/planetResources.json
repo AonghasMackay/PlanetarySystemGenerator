@@ -1,0 +1,147 @@
+[
+    {
+        "label": "Common Metals",
+        "desc": "Commonly occuring metals such as Iron. Used in everything from cutlery to spaceships.",
+        "key": 1
+    },
+    {
+        "label": "Shipbuilding Alloys",
+        "desc": "Rare metal alloys that can survive the frigid void of space.",
+        "key": 2
+    },
+    {
+        "label": "Exotic Elements",
+        "desc": "Rare elements that are expensive to find and refine. Used in cutting edge technologies.",
+        "key": 3
+    },
+    {
+        "label": "Common Gases",
+        "desc": "Used for everything from heating to fuel.",
+        "key": 4
+    },
+    {
+        "label": "Exotic Gases",
+        "desc": "Used in a variety of advanced technology such as shielding, prolonging life and refining.",
+        "key": 5
+    },
+    {
+        "label": "Water",
+        "desc": "Regular drinking water. Also used in various industrial processes..",
+        "key": 6
+    },
+    {
+        "label": "Nuclear Material",
+        "desc": "Various elements used to produce nuclear energy and waste.",
+        "key": 7
+    },
+    {
+        "label": "Assorted Crops",
+        "desc": "Vegtables, Fruits, Cactaceae, Herbs, Roots and Nuts serve as foodstuffs.",
+        "key": 8
+    },
+    {
+        "label": "Grains",
+        "desc": "Mass farmed grain crops feed the majority of the galaxies populations.",
+        "key": 9
+    },
+    {
+        "label": "Fossil Fuels",
+        "desc": "While out of fashion fossil fuels continue to serve a use on less developed worlds.",
+        "key": 10
+    },
+    {
+        "label": "Silicon",
+        "desc": "A necessary material for most semiconductor electronics.",
+        "key": 11
+    },
+    {
+        "label": "Small Animals",
+        "desc": "Small non sentient life forms can serve as material, food, pets and an excellent draw for tourists.",
+        "key": 12
+    },
+    {
+        "label": "Large Animals",
+        "desc": "Large non sentient life forms can serve as material, food, pets, an excellent draw for tourists and on some backward planets even labour.",
+        "key": 13
+    },
+    {
+        "label": "Fungus",
+        "desc": "Can be farmed as a cheap base material to feed the poorer masses.",
+        "key": 14
+    },
+    {
+        "label": "Salt",
+        "desc": "Used to preserve and flavour food.",
+        "key": 15
+    },
+    {
+        "label": "Spices",
+        "desc": "Used to flavour food.",
+        "key": 16
+    },
+    {
+        "label": "Mercury",
+        "desc": "A chemical element used for everything from thermometers to fluorescent lamps.",
+        "key": 17
+    },
+    {
+        "label": "Rhodium",
+        "desc": "A chemical element that is inert against corrosion and most aggresive chemincals.",
+        "key": 18
+    },
+    {
+        "label": "Palladium",
+        "desc": "A chemical component that is a key component of fuel cells.",
+        "key": 19
+    },
+    {
+        "label": "Gold",
+        "desc": "A chemical element that is used for everything from computer components to jewelry.",
+        "key": 20
+    },
+    {
+        "label": "Iridium",
+        "desc": "A chemical element that is extremely dense and corrosion resistant.",
+        "key": 21
+    },
+    {
+        "label": "Platinum",
+        "desc": "A chemical element that is one of the least reactive metals.",
+        "key": 22
+    },
+    {
+        "label": "Insects",
+        "desc": "While often carriers of disease insects also serve as an excellent foodstuff for large population worlds.",
+        "key": 23
+    },
+    {
+        "label": "Rare Bacteria",
+        "desc": "Used in a vareity of scientific and medical processes.",
+        "key": 24
+    },
+    {
+        "label": "Diamond",
+        "desc": "A solid form of carbon with extreme hardness and thermal conductivity.",
+        "key": 25
+    },
+    {
+        "label": "Graphite",
+        "desc": "A common ingredient in electronic devices such as electrodes and batteries.",
+        "key": 26
+    },
+    {
+        "label": "Dyes",
+        "desc": "Coloured substances that bond to materials in order to colour them.",
+        "key": 27
+    },
+    {
+        "label": "Gemstones",
+        "desc": "Mineral crystals which when cut and polished can be used either for jewelry or in industrial processes.",
+        "key": 28
+    },    
+    {
+        "label": "Heavy Water",
+        "desc": "Deuterium oxide is used in Tritium production and nuclear reactors.",
+        "key": 29
+    }
+]

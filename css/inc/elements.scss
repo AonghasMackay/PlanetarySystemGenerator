@@ -1,0 +1,89 @@
+//General element styling
+button {
+  @include input;
+  border-radius: $input-border-radius;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: $regular;
+  margin-bottom: 15px;
+  transition: all 1s ease;
+
+  &:hover {
+    background-color: $core-colour;
+    color: $background-colour;
+    transition: all 1s ease;
+  }
+}
+  
+select {
+  @include input;
+  font-size: 1rem;
+  border-radius: $input-border-radius;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+
+  &:hover {
+    border-color: $tint;
+    transition: border-color 0.3s ease;
+  }
+
+  option {
+    background-color: $ui-dark;
+  }
+}
+
+h2 {
+  margin: 0;
+  font-weight: $bold;
+}
+
+h3 {
+  margin: 0;
+  font-weight: $bold;
+}
+
+p {
+  margin-top: 0;
+}
+
+summary {
+  cursor: pointer;
+}
+  
+ul {
+  margin: 5px 0;
+  padding: 0 35px;
+}
+
+input[type="number"] {
+  @include input;
+  border-radius: $input-border-radius;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: $regular;
+  margin-bottom: 15px;
+  transition: all 1s ease;
+  width: 120px;
+
+  //hide browser added shadow dom arrows
+  -moz-appearance: textfield;
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+}
+
+:disabled {
+  opacity: 0.5;
+
+  &:hover {
+    background-color: initial;
+    color: inherit;
+    border-color: inherit;
+    cursor: initial;
+  }
+}

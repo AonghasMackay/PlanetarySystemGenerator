@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+@import "inc/variables";
+@import "inc/mixins";
+@import "inc/setup";
+@import "inc/elements";
+@import "inc/modular";
+
+.ui-windows {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+}
+
+.ui-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+}
+
+.ui-window {
+  margin: 50px;
+  border: 2px solid $ui-pale;
+  padding: 25px;
+  position: relative;
+  background: $window-gradient;
+  flex-grow: 1;
+  z-index: 2;
+  height: 600px;
+
+  .window-frame {
+    width: 100px;
+    height: 100px;
+    border-left: 2px solid $tint;
+    border-top: 2px solid $tint;
+    display: block;
+    top: $window-frame-pos;
+    left: $window-frame-pos;
+    position: absolute;
+    z-index: -1;
+
+    &:nth-of-type(2) {
+      top: $window-frame-pos;
+      right: $window-frame-pos;
+      left: initial;
+      transform: rotate(90deg);
+    }
+
+    &:nth-of-type(3) {
+      right: $window-frame-pos;
+      bottom: $window-frame-pos;
+      left: initial;
+      top: initial;
+      transform: rotate(180deg);
+    }
+
+    &:nth-of-type(4) {
+      left: $window-frame-pos;
+      bottom: $window-frame-pos;
+      top: initial;
+      transform: rotate(270deg);
+    }
+  }
+}
+
+#sector-name-box {
+  @include flex-row-center;
+  justify-content: space-between;
+  margin: 0 37px;
+  padding-top: 30px;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+#filters {
+  label {
+    margin-right: 15px;
+  }
+}
+
+.ui-controls {
+  margin-left: 37px;
+  padding-bottom: 37px;
+}
+
+.ui-window-contents {
+  margin-right: -20px;
+  padding-right: 20px;
+  overflow-y: scroll;
+  max-height: 100%;
+  z-index: 100;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    z-index: 100;
+  }
+  
+  //Track
+  &::-webkit-scrollbar-track {
+    background: $ui-pale;
+    z-index: 100;
+  }
+  
+  //Handle
+  &::-webkit-scrollbar-thumb {
+    background: $tint;
+    z-index: 100;
+  }
+  
+  //Handle on hover
+  &::-webkit-scrollbar-thumb:hover {
+    background: $ui-light;
+    z-index: 100;
+  }
+}
+
+#systems-list {
+  margin: 0;
+  padding: 0;
+}
+
+.system {
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    margin-right: 15px;
+  }
+}
+
+.ui-box {
+  background: $box-background;
+  position: relative;
+  color: $ui-light;
+  border-top: $border-light;
+  border-bottom: $border-light;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  transition: border-color 0.4s ease;
+
+  &:hover {
+    border-color: $tint;
+    transition: border-color 0.4s ease;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.ui-box-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0;
+
+  * {
+    margin: 0;
+    line-height: 1;
+  }
+}
+
+.ui-box-body {
+  border-top: $border-pale;
+  padding: 20px 0;
+}
+
+.ui-icon-box {
+  @include ui-box;
+
+  &:hover {
+    @include ui-box-hover;
+
+    .ui-icon-box-tooltip {
+      display: block;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.ui-icon {
+  width: 24px;
+  margin-left: 10px;
+}
+
+.ui-icon-box-tooltip {
+  display: none;
+  position: absolute;
+  left: 15px;
+  top: 55px;
+  border-bottom: $border-light;
+  padding: 10px 20px;
+  width: 300px;
+  background: $ui-dark;
+  z-index: 3;
+
+  //arrow
+  &:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-top: $border-light;
+    border-left: $border-light;
+    background: $ui-dark;
+    display: block;
+    transform: rotate(45deg);
+    top: -10px;
+    left: 3px;
+    z-index: 4;
+  }
+
+  //top border - prevents underlapping arrow
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: $default-border;
+    width: calc(100% - 22px);
+    top: -2px;
+    right: 0;
+    border-top: $border-light;
+  }
+
+  p {
+    line-height: 1.25;
+  }
+}
+
+.planet-reveal {
+  display: none;
+  margin: 35px 15px 20px 15px;
+  position: relative;
+
+  &.reveal {
+    display: block;
+  }
+
+  .window-frame {
+    width: 40px;
+    height: 40px;
+  }
+
+  h3 {
+    margin-right: 15px;
+  }
+}
+
+.reveal-head {
+  border-bottom: $border-pale;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.fill-rows {
+  margin-bottom: 15px;
+
+  > p {
+    margin-bottom: 0;
+    margin-right: 12px;
+  }
+
+  &:empty {
+    margin-bottom: 0;
+  }
+}

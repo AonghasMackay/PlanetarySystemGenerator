@@ -1,0 +1,32 @@
+[
+    {
+        "label": "subterran",
+        "habitabilityModifier": 0.5,
+        "key": 1,
+        "desc": "0.1-0.5 Earth masses"
+    },
+    {
+        "label": "terran",
+        "habitabilityModifier": 1,
+        "key": 2,
+        "desc": "0.5-2 Earth masses"
+    },
+    {
+        "label": "superterran",
+        "habitabilityModifier": 0.7,
+        "key": 3,
+        "desc": "2-10 Earth masses"
+    },
+    {
+        "label": "neptunian",
+        "habitabilityModifier": 0.4,
+        "key": 4,
+        "desc": "10-50 Earth masses"
+    },
+    {
+        "label": "jovian",
+        "habitabilityModifier": 0.2,
+        "key": 5,
+        "desc": "50-5000 Earth masses"
+    }
+]
