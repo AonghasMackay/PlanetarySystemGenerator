@@ -1,6 +1,6 @@
 # PlanetarySystemGenerator
 
-Old side project designed as a proof of concept for generating large amounts of data for use in tabletop campagins and science fiction media. My initial foray into OOP javaScript. Can be quite 
+Old side project designed as a proof of concept for generating large amounts of data for use in table top campaigns and science fiction media. My initial foray into OOP javaScript. Can be quite 
 
 Just HTML, CSS (SCSS pre-processor) and javaScript. Can be reletively slow if generating a lot of systems due to the amount of HTML being generated.
 
